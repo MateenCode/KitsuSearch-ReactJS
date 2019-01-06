@@ -19,13 +19,11 @@ class Navigation extends Component {
               </button>
               <Link to="/" className="navbar-brand">
                 {" "}
-                <img src='https://lh3.googleusercontent.com/lzZOrgHRNXsqarUiUf3_jJ_kdES6TVrlaMaqnEfFNu6ucDqrmwwLbnwFFhRqKkI_eSoUTo_PSIBT_w=w489-h488-no'
-            alt="Load..."
-            style={{ width: '150px'}}
-            />
-
-
-
+                <img
+                  src="https://lh3.googleusercontent.com/lzZOrgHRNXsqarUiUf3_jJ_kdES6TVrlaMaqnEfFNu6ucDqrmwwLbnwFFhRqKkI_eSoUTo_PSIBT_w=w489-h488-no"
+                  alt="Load..."
+                  style={{ width: "150px" }}
+                />
               </Link>
             </div>
             <div className="collapse navbar-collapse" id="myNavbar">
