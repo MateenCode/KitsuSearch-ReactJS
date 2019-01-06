@@ -14,7 +14,7 @@ class App extends Component {
       <Router>
       <React.Fragment>
       <Navigation />
-      <div className="container">
+      <div >
       <Switch>
         <Route exact path="/" component={Index} />
         <Route exact path="/about" component={About}></Route>

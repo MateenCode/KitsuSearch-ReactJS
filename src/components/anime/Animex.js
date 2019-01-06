@@ -15,18 +15,19 @@ export default class Anime extends Component {
           } else {
             return (
               <React.Fragment>
-                <h3 className=" text-center mb-4">{heading}</h3>
+                <h2 className=" text-center ">{heading}</h2>
                 <div className="row">
                   {anime_list.map(item => (
                     <div className="col-md-4" key={item.id}>
-                      <div className="card">
-                       
-                        <div className="card-body">
+                      <div className="card" style={{ width: "400px" }}>
+                        <img
+                          id="special"
+                          src={item.attributes.posterImage.large}
+                          alt="Card cap"
+                        />
+                        <div className="card-body text-center">
                           <p>{item.attributes.canonicalTitle}</p>
-                          <Link
-                            to={`anime/detail/${item.id}`}
-                            className="btn btn-primary"
-                          >
+                          <Link to={`anime/detail/${item.id}`} className="btn">
                             Details
                           </Link>
                         </div>
@@ -43,4 +44,3 @@ export default class Anime extends Component {
     );
   }
 }
-
