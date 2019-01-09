@@ -1,4 +1,4 @@
-# [AlphacodeLearing](http://kitsu.surge.sh)
+# [Kitsu](http://kitsu.surge.sh)
 
 A anime series search site, that lets you look for a new anime series with kitsuAPI
 
